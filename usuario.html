@@ -10,32 +10,43 @@
 </head>
 <body>
     <header>
-        <h1><a href="index.html"><img src="imagens/logo-comus.png" alt="Logo COMUS">COORDENAÇÃO MUSICAL | CNAT</a></h1>
+        <section class="topo">
+            <img src="imagens/logo-comus.png" alt="logo">
+            <h1>COORDENAÇÃO MUSICAL | CNAT</h1>
+        </section>
     </header>
 
     <main>
-        <article>
-            <h2><img src="imagens/usuario.icone.png" alt="icone do usuario"></h2>
-            
-            <h3>MATRICULA</h3>
+        
+        <section class="baixo">
+            <form action="agendamento.html">
+                <h2><img src="imagens/usuario.icone.png" alt="icone do usuario"></h2>
+        
+                <h3>MATRÍCULA</h3>
+                <label for="matricula"></label>
+                <input type="number" id="matricula" placeholder="Digite a sua matrícula"> <br> <br>
 
-            <h3>SENHA</h3>
-            
-                <figure>
-                     <img src="imagens/conta.png" alt="celular img">
-                </figure>
-               
 
-        </article>
+                <h3>SENHA</h3>
+                <label for="senha"></label>
+                <input type="password" id="senha" placeholder="Digite a sua senha"> <br> <br>
+
+                <h3>EMAIL</h3>
+                <label for="email"></label>
+                <input type="email" id="email" placeholder="email@gmail.com"> <br> <br>
+                
+                
+                <div class="enter">
+                    <input type="submit" value="ENVIAR">
+                </div>
+
+            </form>
+        </section>
     </main>
 
-    <footer>
-        <address>Rua Dr. Nilo Bezerra Ramalho, 1692, Tirol <br>
-            CEP: 59015-300 <br>
-            Email: comus.cnat@ifrn.edu.br <br>
-            Telefone: (84) 4005-0890 
-        </address>
-    </footer>
+<footer>
+    <p>Desenvolvido por IFRN</p>
+</footer>
 
 </body>
 </html>

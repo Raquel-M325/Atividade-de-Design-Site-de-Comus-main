@@ -1,0 +1,124 @@
+@import url('https://fonts.googleapis.com/css2?family=Zen+Dots&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=ABeeZee:ital@0;1&family=EB+Garamond:ital@1&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=ABeeZee:ital@0;1&family=Abel&family=EB+Garamond:ital@1&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+h1{
+    text-align: left;
+    padding: 30px;
+    background-color: white;
+    font-family: "Zen Dots", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+
+header{
+    background-color: white ;
+    padding-top: 2em;
+    padding-left: 2em;
+}
+
+.topo{
+    display: flex;
+    align-items: center;
+}
+
+.cima{
+    padding-top: 2em;
+    background-color: white;
+}
+
+body{
+    background-color: black;
+}
+
+main h2{
+    font-family: "Zen Dots", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    text-align: center;
+    padding: 20px;
+    color: white;
+
+}
+
+main p{
+    font-family: "Abel", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    text-align: center;
+    padding: 10px 200px 30px 200px;
+    color: white;
+
+}
+
+ol{
+    list-style-type: none;
+    padding: 20px;
+    text-decoration: none;
+    background-color: white;
+    
+}
+
+.icone{
+    width: 30px;   
+    height: 20px;  
+    margin-right: 4px; 
+    vertical-align: middle;
+}
+
+ol li{
+    text-decoration: none;
+    display:  inline-flex;
+    padding-left: 10em;
+    list-style-type: none;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+    font-family: "ABeeZee", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+
+}
+
+a:hover{
+    color: white;
+    text-decoration: none;
+    background-color: black;
+    padding: 3px 5px;
+    border: 2px solid black;
+    border-radius: 4px;
+}
+
+footer{
+    text-decoration: none;
+    background-color: white;
+    color: black;
+    font-family: "ABeeZee", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 12px;
+    text-align: left;
+    padding: 20px;
+    
+}
+
+footer ul{
+    list-style-type: none;
+    
+}
+
+figure img{
+    text-align: center;
+    width: 100%;
+    height: auto;
+    
+}

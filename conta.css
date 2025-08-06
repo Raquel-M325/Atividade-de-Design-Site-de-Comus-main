@@ -5,8 +5,87 @@
 *{
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-image: url(imagens/conta.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+
+main form {
+    background-color: white;
+    padding: 2em;
+}
+
+.baixo {
+    display: flex;
+    justify-content: center;
+    padding-top: 3em;
+    padding-bottom: 3em;
+   
+   
 }
 
 header{
-    display: flex;
+    background-color: white;
+    padding: 2em;
 }
+
+
+.topo{
+    display: flex;
+    gap: 2em;
+    align-items: center;
+}
+
+
+
+h1 {
+    color: black;
+    font-family: "Zen Dots", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    text-align: center;
+    
+}
+
+h2 {
+    padding-bottom: 2em;
+    padding: 2em;
+}
+
+#matricula, #senha, #email{
+    width: 300px;
+    height: 30px; 
+    padding: 5px;
+    text-align: left;
+}
+
+
+.enter input[type='submit']{
+    background-image: linear-gradient(rgb(4, 175, 104),rgb(1, 109, 55));
+    padding: 15px 5em;
+    color: white;
+
+}
+
+.enter{
+    text-align: center;
+    padding: 2em;
+}
+
+footer{
+    text-decoration: none;
+    background-color: white;
+    color: black;
+    font-family: "ABeeZee", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    text-align: center;
+    padding: 3em;
+    
+}
+
