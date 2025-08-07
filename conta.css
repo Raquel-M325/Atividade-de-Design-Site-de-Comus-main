@@ -12,7 +12,15 @@ body{
     background-image: url(imagens/conta.png);
     background-repeat: no-repeat;
     background-size: cover;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh; 
+    overflow-x: hidden;
 
+}
+
+main{
+    flex-grow: 1;
 }
 
 main form {
@@ -86,6 +94,7 @@ footer{
     font-style: normal;
     text-align: center;
     padding: 3em;
+    width: 100%;
     
 }
 
