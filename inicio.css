@@ -17,20 +17,6 @@ h1{
     font-style: normal;
 }
 
-.redes{
-    display: flex;
-    gap: 9em;
-    font-size: 1px;
-    padding-left: 1rem;
-    
-
-}
-.redes img{
-    width: 40px;
-    height: 40px;
-    
-
-}
 
 header{
     background-color: white ;
@@ -50,14 +36,13 @@ header{
 
 body{
     background-color: black;
-    
 }
 
 main h2{
     font-family: "Zen Dots", sans-serif;
     font-weight: 400;
     font-style: normal;
-    text-align: center;
+    text-align: left;
     padding: 20px;
     color: white;
 
@@ -67,8 +52,8 @@ main p{
     font-family: "Abel", sans-serif;
     font-weight: 400;
     font-style: normal;
-    text-align: center;
-    padding: 10px 200px 30px 200px;
+    text-align: left;
+    padding-left: 5em;
     color: white;
 
 }
@@ -104,7 +89,7 @@ a{
 
 }
 
-a:hover{
+a:hover {
     color: white;
     text-decoration: none;
     background-color: black;
@@ -113,6 +98,23 @@ a:hover{
     border-radius: 4px;
     transition: 0.3s;
 }
+
+
+.redes{
+    display: flex;
+    gap: 9em;
+    font-size: 1px;
+    padding-left: 1rem;
+    
+
+}
+.redes img{
+    width: 40px;
+    height: 40px;
+    
+
+}
+
 
 footer{
     text-decoration: none;
@@ -132,9 +134,44 @@ footer ul{
     
 }
 
+.especial{
+    text-align: center;
+    width: 50em;
+    height: 8vh;   
+    
+}
+
 figure img{
     text-align: center;
     width: 100%;
-    height: auto;
+    padding-top: 4em;
+    
+}
+
+.finale{
+    text-align: center;
+    font-size: 80px;
+    padding: 2em;
+   
+}
+
+
+.principal{
+    display: flex;
+    gap: 2em;
+    padding: 4em;
+
+
+}
+.segundario{
+    display: inline-block;
+    gap: 2em;
+    padding: 4em;
+
+
+}
+
+.texto{
+    text-align: center;
     
 }
