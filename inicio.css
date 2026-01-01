@@ -108,7 +108,15 @@ a{
 
 }
 
-
+a:hover {
+    color: white;
+    text-decoration: none;
+    background-color: black;
+    padding: 3px 5px;
+    border: 2px solid black;
+    border-radius: 7px;
+    transition: 0.3s;
+}
 
 
 .redes{
