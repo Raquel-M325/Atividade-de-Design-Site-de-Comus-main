@@ -9,8 +9,9 @@
 }
 
 .linguagem{
-    background-color: green;
-    color: white;
+    text-align: right;
+    padding: 1em;
+    background-color: white;
 }
 
 h1{
