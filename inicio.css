@@ -109,6 +109,7 @@ a{
 }
 
 a:hover {
+    color: white
     text-decoration: none;
     background-color: black;
     padding: 5px 5px;
